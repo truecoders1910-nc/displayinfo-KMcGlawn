@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DisplayInfo
+namespace displayinfo_KMcGlawn
 {
     class Program
     {
@@ -15,19 +15,8 @@ namespace DisplayInfo
             Console.WriteLine("What is your favorite animal?");
             string Animal = Console.ReadLine();
 
-
-
-            Console.WriteLine($"Hello {First} {Last}, I see your favorite animal is a {Animal}.");
-            
-            // Get first and last name from user input
-            // Get their favorite number
-            // Get their favorite animal
-
-            // Once you have gotten all their info and stored it,
-            // display it back to them.
-
-            // If their favorite number is greater than 10, display it in green.
-            // If their favorite number is less than 5, display it in red.
+            string Response = $"Hello {First} {Last}, I see your favorite animal is a {Animal} and your favorite number is {Num}.";
+            Console.WriteLine(Response);
         }
     }
 }
